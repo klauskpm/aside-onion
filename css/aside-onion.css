@@ -1,0 +1,69 @@
+.asiion{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.asiion-overlay{
+	background: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    cursor: pointer;
+    display: none;
+}
+
+.asiion-menu{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	right: 0;
+}
+
+.asiion-top{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	background: #1268C7;
+	border-bottom: 1px solid #025387;
+	color: white;
+}
+
+.asiion-icon{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin: 0 8px 0 0;
+}
+
+.asiion-title{
+	font-size: 20px;
+	margin: 0;
+	font-weight: 400;
+}
+
+.asiion-x{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 21px;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 23px 0 22px;
+	border-left: 1px solid white;
+	cursor: pointer;
+}
+
+.asiion-content{
+	padding: 20px;
+	background: white;
+	height: 100%;
+}
